@@ -16,7 +16,7 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                sh 'mocha'  // If you have tests, replace this with your test command
+                sh 'npm test'  // If you have tests, replace this with your test command
             }
         }
 
